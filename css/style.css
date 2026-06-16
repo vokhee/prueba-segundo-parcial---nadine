@@ -1,0 +1,91 @@
+:root{
+	--menu-hover:#cd9b33;
+	--color-general:#666;
+	--color-titulos:#000;
+}
+
+body{
+	font-size: 14px;
+	font-family: 'Lora', serif;
+	line-height: 1.7;
+	color: #000;
+}
+header{
+	background-color: #fff;
+	padding: 5px 0;
+	box-shadow: 0px 0px 5px 10px #f2f2f2;
+}
+footer #copyright{
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+.script-font {
+    font-family: 'Kaushan Script', cursive;
+    color: #000;
+}
+
+.hero .carousel-item img {
+    height: 520px;
+    object-fit: cover;
+}
+
+.order-now {
+    margin-top: -5px; /* Para que quede pegado al carrusel */
+}
+
+.award img {
+    height: 130px;
+    width: auto;
+}
+
+.intro {
+    background-color: #FFF;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.15rem;
+    color: #000;
+}
+
+.social-icons a {
+    font-size: 1.4rem;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.order-now {
+	border-color: #E1C690
+}
+
+.contact-section{ background: #22202e}
+
+
+.btn-custom-gold {
+    color: #cda86b;
+    border-color: #cda86b;
+    background-color: transparent;
+    font-weight: 500; 
+    transition: all 0.3s ease;
+}
+
+.btn-custom-gold:hover {
+    color: #FFF;
+    background-color: #cda86b; 
+    border-color: #cda86b;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero .carousel-item img {
+        height: 380px;
+    }
+}
